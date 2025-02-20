@@ -1,0 +1,19 @@
+
+        .navbarBg{
+            background: #da1c22;
+        }
+        .navbar-brandimg {
+            width: 150px; /* Adjust width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .logo-img {
+            width: 398px;  /* Default width */
+            height: auto;  /* Maintain aspect ratio */
+          }
+          
+          @media (max-width: 768px) {
+            .logo-img {
+              width: 120px; /* Smaller width on mobile */
+            }
+          }

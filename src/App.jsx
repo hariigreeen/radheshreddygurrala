@@ -5,6 +5,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import './App.css'
 import Navbar from './componets/NavBar'
+import Logo from './componets/Logo';
+import HomeContent from './componets/HomeContent';
+import HomeVideo from './componets/HomeVideo';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,12 +16,9 @@ function App() {
     <>
       <div>
         <Navbar />
-        <div className="container mt-5">
-          <h1>
-            <img src="./assets/cardinal_final_logo-01-(1)-qw4mztPe.png" alt="" />
-          </h1>
-          <p>This is a responsive navbar using React and Bootstrap.</p>
-        </div>
+        <Logo />
+        <HomeContent />
+        <HomeVideo />
       </div>
     </>
   )
