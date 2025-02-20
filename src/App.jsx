@@ -14,7 +14,9 @@ function App() {
       <div>
         <Navbar />
         <div className="container mt-5">
-          <h1>Welcome to My Website</h1>
+          <h1>
+            <img src="./assets/cardinal_final_logo-01-(1)-qw4mztPe.png" alt="" />
+          </h1>
           <p>This is a responsive navbar using React and Bootstrap.</p>
         </div>
       </div>
